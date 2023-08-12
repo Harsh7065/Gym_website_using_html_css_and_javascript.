@@ -1,0 +1,247 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:black;
+    color:white;
+    font-family: sans-serif;
+}
+nav{
+    position:fixed;
+    width:100%;
+    display:flex;
+    background-color:rgb(9, 9, 17);
+    padding:22px;
+    box-shadow: 0px 2px 6px 2px rgba(117, 104, 104, 0);
+    justify-content: space-between;
+
+}
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    color:white;
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    margin-right:33px;
+    margin-top:6px;
+}
+.logo{
+    font-size: 25px;
+    margin-left:33px;
+    color:rgb(6, 252, 6);
+}
+li button{
+    width:100px;
+    height: 33px;
+    background-color: rgb(0, 255, 136);
+    border: none;
+    font-size:18px;
+    color:white;
+}
+li button:hover{
+    background-color:transparent;
+    color:green;
+    cursor:pointer;
+}
+ul li a:hover{
+    color: rgb(0, 255, 136);
+}
+.home{
+    display: flex;
+    justify-content: center;
+}
+.home img{
+        width: 59%;
+        margin-top: 130px;
+        margin-left: -174px;
+}
+.home .homeText{
+    margin-top:200px ;
+    margin-left:100px ;
+}
+.homeText h1{
+    font-size: 85px;
+    color:#09f509;
+    
+}
+.homeText h2{
+    font-size: 40px;
+   
+}
+.homeText p{
+    font-size: 20px;
+    
+}
+.homeText button{
+    margin-top: 22px;
+    height:60px;
+    color:white;
+    background-color: rgb(7, 241, 7);
+    font-size: 20px;
+    width: 140px;
+    border: none;
+}
+.homeText button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #09f509;
+}
+.head{
+    text-align: center;
+    font-size: 25px;
+}
+.head span{
+    color:#09f509;
+    padding: 25px;
+}
+.ourProgram{
+    display:flex;
+    justify-content: center;
+}
+.ourProgram .crd{
+    margin-inline:22px;
+    text-align: center;
+    margin-top: 50px;
+}
+.ourProgram .crd img{
+    width:350px;
+}
+
+
+.ourProgram .crd img:hover{
+    
+    width:400px;
+    
+}
+.plansHeading{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.plansHeading h1 span{
+    color:#09f509;
+    padding:25px;
+
+}
+.ourPlans {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ourPlans .cards{
+    margin-top: 40px;
+    background-color: gray;
+    width:370px;
+    padding:22px;
+    
+    text-align: center;
+    margin-inline: 50px;
+}
+.cards h3{
+    margin-top: 22px;
+}
+.cards h1{
+        margin-top: 22px;
+}
+.cards h2{
+        margin-top: 22px;
+}
+.cards button{
+        margin-top: 22px;
+}
+
+.cards button:hover{
+    cursor: pointer;    
+}
+.blogsHead{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.blogs h1 span{
+    color:#09f509;
+    padding: 25px;
+}
+.ourBlogs{
+    justify-content: center;
+    display:flex;
+
+}
+.ourBlogs .blogCard{
+    margin-top: 50px;
+}
+.ourBlogs .blogCard{
+    background-color: gray;
+    margin-inline: 50px;
+    width:300px
+}
+
+ 
+
+.blogCard img{
+    width:300px;
+}
+.blogCard a{
+    justify-content: center;
+}
+.contactPage{
+    display: flex;
+    justify-content: center;
+  }
+  .contactText{
+    margin-left: 33px;
+    color: rgb(33, 249, 33);
+    margin-top: 134px;
+    font-size: 32px;
+  }
+  .contactPage img{
+    width: 60%;
+    margin-left: -33px;
+  }
+  .contactUs{
+    text-align: center;
+    margin-top: 22px;
+  }
+  .contactUs input{
+    width: 350px;
+    padding: 8px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+  }
+  .contactUs button{
+    width: 365px;
+    height: 45px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(41, 249, 41);
+    border-radius: 2px;
+    margin-top: 22px;
+  }
+  .contactUs button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(27, 246, 27);
+  }
+.footer{
+    display: flex;
+    justify-content: center;margin-top: 50px;
+    padding:22px;
+     box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+}
+.footer .footerText{
+    margin-inline: 73px;
+    margin-top: 33px;
+}
+.footerText p{
+margin-top: 11px;
+color: silver;
+  }
